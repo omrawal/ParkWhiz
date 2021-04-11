@@ -348,3 +348,9 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/1.jpg
+/2.jpg
+/3.jpg
+/4.jpg
+/temp
+/vehicles.db
