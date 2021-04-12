@@ -29,7 +29,8 @@ def checkin_frame(destroy_this_win=None):
     root = tk.Tk()
     root.title("ParkWhiz:Checkin")
     root.geometry("500x700")  # 300x200
-
+    # root.withdraw()
+    root.call('wm', 'attributes', '.', '-topmost', True)
     uname_label = tk.Label(root, text="ParkWhiz:Checkout", font=10)
     uname_label.place(x=90, y=50)
 
@@ -75,7 +76,8 @@ def checkout_frame(destroy_this_win=None):
     root = tk.Tk()
     root.title("ParkWhiz:Checkout")
     root.geometry("500x700")  # 300x200
-
+    # root.withdraw()
+    root.call('wm', 'attributes', '.', '-topmost', True)
     uname_label = tk.Label(root, text="ParkWhiz:Checkout", font=10)
     uname_label.place(x=90, y=100)
 
