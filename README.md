@@ -19,7 +19,7 @@ The numberplate is detected using contour detection and EasyOCR.
 
 
 ## Preview
-![Preview](Assets/Safe_storage_for_gif.gif)
+![Preview](Assets/ParkWiz.gif)
 
 ## Please open an issue if
 * you have any suggestion to improve this project
