@@ -31,7 +31,7 @@ def checkin_frame(destroy_this_win=None):
     root.geometry("500x700")  # 300x200
     # root.withdraw()
     root.call('wm', 'attributes', '.', '-topmost', True)
-    uname_label = tk.Label(root, text="ParkWhiz:Checkout", font=10)
+    uname_label = tk.Label(root, text="ParkWhiz:Checkin", font=10)
     uname_label.place(x=90, y=50)
 
     facepic_message = tk.Label(root, text="Base Fare /hr", font=10)
